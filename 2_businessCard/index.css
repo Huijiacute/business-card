@@ -1,0 +1,75 @@
+/* First card */
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  margin-bottom: 50px;
+}
+.container {
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(222, 212, 249);
+}
+.baby_blue {
+  height: 8px;
+  background: rgb(204, 229, 255);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.jia_img {
+  width: 250px;
+  margin-right: 30px;;
+}
+.flex {
+  display: flex;
+}
+.name_location {
+  font-weight: bold;
+}
+.text {
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* second card */
+.card-div {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #2b2839;
+  border-bottom: 5px solid #d8cefe;
+  background: #ddebf8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.avatar {
+  width: 150px;
+}
+
+/* Third card */
+.third-card {
+  display: flex;
+  margin: 20px auto;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  background: #e3cbf4;
+  justify-content: space-around;
+  border-bottom: 10px solid #B4D3D9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.jia_image {
+  width: 150px;
+}
+.third-card:hover {
+  background-color: #B4D3D9;
+  /* transition-delay: 3s; */
+  border-bottom: 10px solid #d8cefe;
+}
